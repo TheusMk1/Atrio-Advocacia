@@ -1,0 +1,13 @@
+.admin { max-width: 960px; padding-block: clamp(2rem, 5vw, 5rem); }
+.admin h1 { font: 400 clamp(2.3rem, 5.5vw, 4.1rem)/1.05 var(--serif); margin-top: .6rem; letter-spacing: -.055em; }
+.admin-header { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; align-items: end; padding-bottom: 1.2rem; border-bottom: 1px solid var(--line); margin-bottom: 1.4rem; }
+.admin-tools { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; justify-content: space-between; margin-bottom: 1.15rem; }
+.login { display: grid; gap: 1rem; max-width: 23rem; }
+.editor { display: grid; gap: .65rem; }
+.editor details { padding: .7rem 1rem; border: 1px solid var(--line); }
+.editor summary { cursor: pointer; font-weight: 650; }
+.edit-fields { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 235px), 1fr)); margin-top: .9rem; }
+.editor .button { margin-top: .5rem; }
+.notice, .mode { padding: .65rem .9rem; background: var(--paper); }
+.notice { border-left: 3px solid var(--bronze); margin-bottom: 1rem; }
+.admin input[type=file] { padding: .4rem; }
